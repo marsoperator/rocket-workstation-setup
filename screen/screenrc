@@ -1,0 +1,4 @@
+startup_message off
+vbell off
+hardstatus alwayslastline "%{=b} %H | %-w | %=%{=} %c "
+defscrollback 2000
