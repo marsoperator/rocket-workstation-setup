@@ -1,0 +1,10 @@
+#!/bin/sh
+# symlink everything into $HOME, skip what is already there
+here=$(cd "$(dirname "$0")/.." && pwd)
+
+for f in .aliases .profile vim/vimrc screen/screenrc git/gitconfig git/ignore; do
+  src="$here/$f"
+  dst="$HOME/.$(basename "$f")"
+  [ -e "$dst" ] && { echo "skip $dst"; continue; }
+  ln -s "$src" "$dst" && echo "link $dst"
+done
