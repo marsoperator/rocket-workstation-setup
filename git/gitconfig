@@ -1,0 +1,7 @@
+[user]
+	name = Rory
+	email = GoodwinCarlton2721@hotmail.com
+[core]
+	editor = vim
+[color]
+	ui = off
