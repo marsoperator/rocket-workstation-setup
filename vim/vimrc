@@ -1,0 +1,9 @@
+set nocompatible
+syntax on
+set number
+set ts=4
+set sw=4
+set noexpandtab
+set backspace=2
+set ruler
+set incsearch
