@@ -1,0 +1,5 @@
+Config for the pad workstations. Shell, vim, screen.
+
+  make install
+
+Symlinks only. Nothing is copied over an existing file.
